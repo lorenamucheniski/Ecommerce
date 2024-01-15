@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+
+    :root {
+        --color1: #061d24;
+        --color2: #0c3741;
+        --color3: #155e65;
+        --color4: #228a93;
+        --color5: #3fbfcc;
+        --color6: white;
+    }
+
+    body {
+        background-color: var(--color2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+    }
+    
+}
