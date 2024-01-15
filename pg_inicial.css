@@ -1,40 +1,50 @@
-@media screen and (max-width: 600px) {
+:root {
+    --color1: #061d24;
+    --color2: #0c3741;
+    --color3: #155e65;
+    --color4: #228a93;
+    --color5: #3fbfcc;
+    --color6: white;
 
-    :root {
-        --color1: #061d24;
-        --color2: #0c3741;
-        --color3: #155e65;
-        --color4: #228a93;
-        --color5: #3fbfcc;
-        --color6: white;
+    font-size: 62.5%;
 
-        font-size: 62.5%;
+}
 
-    }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: var(--color2);
-    }
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 2em;
+    background-color: var(--color1);
+    color: var(--color6);
+}
 
-    header {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        position: relative;
-        bottom: 2em;
-        background-color: var(--color1);
-        color: var(--color6);
-    }
+.h1-div {
+    font-size: 5em;
+    margin-bottom: 0;
+}
 
-    .h1-div {
-        font-size: 5em;
-        margin-bottom: 0;
-    }
+.h2-div {
+    font-size: 3em;
+}
+ nav {
+    display: flex;
+    padding: 0 1em 0;
+ }
 
-    .h2-div {
-        font-size: 3em;
-    }
+ nav  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+ }
+@media screen and (min-width: 600px) {
 
 }
