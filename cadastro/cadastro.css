@@ -20,6 +20,29 @@ fieldset {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    border: none;
+}
+
+form {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    width: 16em;
+
+}
+
+legend {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    margin-top: .5em;
+    gap: 3em;
+}
+
+div input {
+    flex-grow: 1;
 }
 
 @media screen and (min-width: 600px) {
