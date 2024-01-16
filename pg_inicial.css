@@ -25,6 +25,7 @@ header {
     bottom: 2em;
     background-color: var(--color1);
     color: var(--color6);
+    border-bottom: 3px solid white;
 }
 
 .h1-header {
@@ -39,7 +40,6 @@ header {
  nav {
     display: flex;
     padding: 1em 0 1em 1em;
-    border-bottom: 1px solid var(--color6);
  }
 
  nav  a {
@@ -47,6 +47,10 @@ header {
     color: white;
     font-size: 1.2em;
     
+ }
+
+ hr {
+    width: 30em;
  }
 
 article {
