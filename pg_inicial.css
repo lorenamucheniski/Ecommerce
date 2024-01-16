@@ -58,6 +58,24 @@ header {
     width: 30em;
  }
 
+ .div_main {
+    width: 100vw;
+ }
+
+ .div_main img {
+    width: 100%;
+    display: block;
+ }
+
+ .div_main p {
+    width: 8em;
+    color: var(--color1);
+    font-size: 2em;
+    position: absolute;
+    bottom: 12em;
+    left: 11em;
+ }
+
 article {
     padding: 1em;
     display: flex;
