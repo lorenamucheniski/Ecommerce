@@ -76,7 +76,7 @@ article {
 }
 
 .contain_cel {
-    width: 8em;
+    max-width: 8em;
     border: 1px solid rgb(0, 0, 0, 0.7);
     border-radius: 2px;
     display: flex;
