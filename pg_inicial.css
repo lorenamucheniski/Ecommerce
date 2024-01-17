@@ -67,6 +67,12 @@ hr {
     background-size: 100%;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 article {
     padding: 1em;
     display: flex;
