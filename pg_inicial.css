@@ -60,12 +60,11 @@ hr {
 }
 
 .div_main {
-    width: 100vw;
-}
-
-.div_main img {
-    width: 100%;
-    display: block;
+    margin: 0 auto 0;
+    width: 90vw;
+    height: 22em;
+    background-image: url(img/top_img.jpg);
+    background-size: 100%;
 }
 
 article {
@@ -73,6 +72,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     gap: .5em;
+    align-content: center;
 }
 
 .contain_cel {
@@ -106,6 +106,7 @@ article {
 section h2 {
     text-align: center;
     font-size: 2em;
+    color: white;
 }
 
 @media screen and (min-width: 38em) {}
